@@ -1,6 +1,6 @@
 # IOTA Delegated ProofOfWork
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/glumb/iotadpow/master/LICENSE.md) [![Travis](https://img.shields.io/travis/glumb/iotadpow.svg)](https://travis-ci.org/glumb/iotadpow) [![npm](https://img.shields.io/npm/v/$iotadpow$.svg)](https://www.npmjs.com/package/iotadpow) [![Codecov](https://img.shields.io/codecov/c/github/glumb/iotadpow.svg)]()
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/glumb/iotadpow/master/LICENSE.md) [![Travis](https://img.shields.io/travis/glumb/iotadpow.svg)](https://travis-ci.org/glumb/iotadpow) [![npm](https://img.shields.io/npm/v/$iotadpow$.svg)](https://www.npmjs.com/package/iotadpow) [![Codecov](https://img.shields.io/codecov/c/github/glumb/iotadpow.svg)](https://codecov.io/github/glumb/iotadpow)
 
 Finally fees in IOTA!
 
