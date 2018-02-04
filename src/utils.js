@@ -12,7 +12,7 @@ module.exports = {
     for (const trytes of trytesBundle) {
       const txObj = iotaLib.utils.transactionObject(trytes)
 
-      if (txObj.address === depositAddress && txObj.value === numberOfTx * feePerTx) {
+      if (txObj.address === depositAddress && txObj.value >= numberOfTx * feePerTx) {
         debug(`bundle valid. Required fee:${numberOfTx * feePerTx} actual fee:${txObj.value}`)
         return true
       }
