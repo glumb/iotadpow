@@ -1,0 +1,17 @@
+#npm
+node_modules
+npm-debug.log
+
+#build
+dist
+
+#webstorm
+.idea
+
+#coverage
+.nyc_output
+coverage.lcov
+coverage
+
+#mac
+.DS_Store
