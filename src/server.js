@@ -102,8 +102,10 @@ class Server {
 
   addTransferBundleTrytes(trytes, cb) {
     if (utils.validateTrytesFee(trytes, this.options.feePerTransaction, this.options.depositAddress)) {
+      debug('bundle valid, performing POW')
       this.iotaLib.api.sendTrytes(trytes, this.options.depth, this.options.minWeightMagnitude, cb)
     } else {
+      debug('bundle invalid, not performing POW')
       cb(null, 'provided trytes invalid')
     }
   }
