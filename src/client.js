@@ -23,7 +23,7 @@ class Client {
       provider: this.options.provider,
     })
     this.iotaDPOWLib = new IOTA({
-      provider: this.options.DPOWProvider,
+      provider: this.options.IDPOWProvider,
     })
   }
 
@@ -122,7 +122,8 @@ class Client {
 
     this.getFeePerTx((e, fee) => {
       if (e) {
-        debug('getFeePerTx request error')
+        debug(`getFeePerTx request error${e}`)
+        callback(e)
         return
       }
       feePerTx = fee
@@ -130,7 +131,8 @@ class Client {
     })
     this.getDepositAddress((e, addr) => {
       if (e) {
-        debug('getDepositAddress request error')
+        debug(`getDepositAddress request error${e}`)
+        callback(e)
         return
       }
       address = addr
