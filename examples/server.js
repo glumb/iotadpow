@@ -5,7 +5,7 @@ const idpcs = new idpow.Server({
   depth: 3,
   feePerTransaction: 1,
   depositAddress: 'JKHFORHNEWPHTDRLTMYXARCOFEFCPTTDIICHSKK9KXZBXOOXZPTJFVKMQZHTFFCVPHGUVPLGPJMPUFKFWQMAMGZXRX',
-  provider: 'http://node04.nodeblie.de:14265',
+  provider: 'http://pow-fullnode-node:14265',
   listenOnPort: 14260,
   allowedCommands: ['getTransactionsToApprove', 'findTransactions', 'getNodeInfo', 'wereAddressesSpentFrom', 'getBalances'],
 })
