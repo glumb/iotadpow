@@ -11,7 +11,7 @@ Finally fees in IOTA!
 IDPOW enables outsourcing the POW to a third party by paying a small fee per transaction. The fee is included in a bundle and signed by the client. The server can therefore only claim the fee by doing the bundles POW.
 
 ## Schema
-![iotadpow](https://user-images.githubusercontent.com/3062564/35780574-c953b9bc-09dd-11e8-803e-9919d5dade35.png)
+![iotadpow](https://user-images.githubusercontent.com/3062564/35794475-27728f00-0a56-11e8-956c-ca6781ca5610.png)
 
 ## API
 
